@@ -123,6 +123,7 @@
       right: 38%;
       bottom: 15%;
 
+
       @media only screen and (min-width: 1200px) and (max-width: 1400px) {
         right: 43%;
         bottom: 9%;
@@ -131,7 +132,7 @@
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         bottom: 6%;
       }
-
+      
       @media only screen and (max-width: 768px) {
         left: 0px;
         bottom: 9%;
@@ -153,18 +154,17 @@
         right: 12%;
         bottom: 24%;
 
+
         @media only screen and (min-width: 1200px) and (max-width: 1400px) {
           right: 1%;
           bottom: 18%;
         }
-        @media only screen and (min-width: 992px) and (max-width: 1199px) {
-          bottom: 18%;
-          right: 9px;
+        @media only screen and (min-width: 0px) and (max-width: 1199px) {
+          display: none;
         }
 
         @media only screen and (max-width: 768px) {
-          right: 20px;
-          bottom: 18%;
+          display: none;
         }
 
         @include breakpoint(max-sm) {
